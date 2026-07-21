@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="hr"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260720-23-6392a42"}');</script><script src="/_sdk/f432b76fb310b513.telemetry_sdk.js" integrity="sha512-9FJQ55EKmmqhyyik8BhrMVfm0+iYYfb8uOlRsjtkxJMEI97qOVEI4PnHohDjQAtvAep0IOEpdQ64eki0sz62ug=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pečenjarnica Makedonka | Traditional Balkan Grill Since 1969</title>
+  <meta name="description" content="Pečenjarnica Makedonka - Traditional Balkan Grill in Osijek, Croatia since 1969. Authentic ćevapi, pljeskavica, and grilled specialties.">
+  <link rel="alternate" hreflang="hr" href="">
+  <link rel="alternate" hreflang="en" href="">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <style>
+        :root {
+            --burgundy: #7A1E1E;
+            --charcoal: #1A1A1A;
+            --beige: #F5F1EA;
+            --gold: #C8A45A;
+        }
+        body { font-family: 'Poppins', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+       
+        .nav-scrolled { background: rgba(26,26,26,0.95); backdrop-filter: blur(10px); }
+       
+        .fade-up { opacity: 0; transform: translateY(40px); transition: opacity 0.8s ease, transform 0.8s ease; }
+        .fade-up.visible { opacity: 1; transform: translateY(0); }
+       
+        .hero-overlay { background: linear-gradient(to bottom, rgba(26,26,26,0.6), rgba(26,26,26,0.8)); }
+       
+        .menu-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+        .menu-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+       
+        .gallery-item img { transition: transform 0.5s ease; }
+        .gallery-item:hover img { transform: scale(1.05); }
+       
+        .gold-line { width: 60px; height: 2px; background: var(--gold); }
+       
+        @keyframes scrollDown { 0%,100%{ transform: translateY(0); opacity:1; } 50%{ transform: translateY(8px); opacity:0.5; } }
+        .scroll-indicator { animation: scrollDown 2s infinite; }
+
+        .mobile-menu { transform: translateX(100%); transition: transform 0.3s ease; }
+        .mobile-menu.open { transform: translateX(0); }
+    </style>
+  <script src="/_sdk/e3937a0574eb2d69.data_sdk.js" type="text/javascript" integrity="sha512-xbp/ACqEQy1aDxYMtXTrR3y5MUbzxuggRR/9sD48Gl4VhLMMCiAHsxMaFV6DTdeBpR6ymF+t2zhPKYkWM3+Jfw=="></script>
+  <script src="/_sdk/9432170dbd2ae0df.resizing_sdk.js" type="text/javascript" integrity="sha512-FeT+58sb1f9ejWPWFjCbJvTT+SDwGV+ngrHUnlO7TWEOoqwOLj6p256kO3vOL7DIWl1cIgrobiof8v2bOigwPg=="></script>
+ </head>
+ <body data-template-id="__page-root" class="w-full" style="background: rgb(122, 30, 30);"><!-- Navigation -->
+  <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 px-6 lg:px-12">
+   <div class="max-w-7xl mx-auto flex items-center justify-between"><a href="#home" class="text-white font-bold text-xl" style="font-family:'Playfair Display',serif;">Makedonka</a>
+    <div class="hidden lg:flex items-center gap-8"><a href="#home" class="nav-link text-white/80 hover:text-white text-sm font-medium transition">Početna</a> <a href="#about" class="nav-link text-white/80 hover:text-white text-sm font-medium transition">O nama</a> <a href="#menu" class="nav-link text-white/80 hover:text-white text-sm font-medium transition">Jelovnik</a> <a href="#gallery" class="nav-link text-white/80 hover:text-white text-sm font-medium transition">Galerija</a> <a href="#reviews" class="nav-link text-white/80 hover:text-white text-sm font-medium transition">Recenzije</a> <a href="#reservation" class="nav-link text-white/80 hover:text-white text-sm font-medium transition">Rezervacija</a> <a href="#contact" class="nav-link text-white/80 hover:text-white text-sm font-medium transition">Kontakt</a>
+    </div>
+    <div class="hidden lg:flex items-center gap-4"><a href="tel:+38531503403" data-template-id="nav-reserve-btn" class="canva-button px-5 py-2 rounded-full text-sm font-semibold transition hover:opacity-90" style="background: rgb(122, 30, 30); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Rezerviraj telefonom</a>
+    </div><button id="mobileMenuBtn" class="lg:hidden text-white"><i data-lucide="menu" style="width:28px;height:28px;"></i></button>
+   </div>
+  </nav><!-- Mobile Menu -->
+  <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-72 h-full z-[60] bg-[#1A1A1A] p-8 flex flex-col gap-6"><button id="mobileMenuClose" class="self-end text-white mb-4"><i data-lucide="x" style="width:28px;height:28px;"></i></button> <a href="#home" class="mob-link text-white text-lg">Početna</a> <a href="#about" class="mob-link text-white text-lg">O nama</a> <a href="#menu" class="mob-link text-white text-lg">Jelovnik</a> <a href="#gallery" class="mob-link text-white text-lg">Galerija</a> <a href="#reviews" class="mob-link text-white text-lg">Recenzije</a> <a href="#reservation" class="mob-link text-white text-lg">Rezervacija</a> <a href="#contact" class="mob-link text-white text-lg">Kontakt</a> <a href="tel:+38531503403" class="mt-4 bg-[#7A1E1E] text-white text-center py-3 rounded-full font-semibold">Rezerviraj telefonom</a>
+  </div><!-- Hero Section -->
+  <header id="home" class="relative w-full" style="height:calc(100 * min(var(--vh, 1vh), 1vh));"><img data-template-id="hero-bg" class="canva-image absolute inset-0 w-full h-full object-cover" loading="eager" src="IMG_5182.jpeg" alt="Pečenjarnica Makedonka storefront with 'since 1969' signage and tree canopy">
+   <div class="hero-overlay absolute inset-0"></div>
+   <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
+    <div class="fade-up">
+     <div class="gold-line mx-auto mb-6"></div>
+     <h1 data-template-id="hero-title" class="canva-text text-white mb-4" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 56px;">Pečenjarnica Makedonka</h1>
+     <p data-template-id="hero-tagline" class="canva-text text-white/80 uppercase tracking-[0.2em] text-sm mb-8" style="color: rgb(200, 164, 90); font-weight: 400; font-style: normal; font-size: 14px;">Tradicionalni balkanski roštilj od 1969.</p>
+     <p data-template-id="hero-desc" class="canva-text text-white/70 max-w-xl mx-auto mb-10 text-base leading-relaxed" style="color: rgba(255, 255, 255, 0.7); font-weight: 400; font-style: normal; font-size: 16px;">Više od pet desetljeća autentične tradicije roštilja u srcu Osijeka. Dobrodošli u Makedonku.</p>
+     <div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="#menu" data-template-id="hero-btn-menu" class="canva-button px-8 py-3 rounded-full font-semibold text-sm transition hover:opacity-90" style="background: rgb(122, 30, 30); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Istraži jelovnik</a> <a href="#reservation" data-template-id="hero-btn-reserve" class="canva-button px-8 py-3 rounded-full font-semibold text-sm border transition hover:bg-white/10" style="background: transparent; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Naručite odmah</a>
+     </div>
+    </div>
+    <div class="absolute bottom-10 scroll-indicator text-white/60"><i data-lucide="chevron-down" style="width:28px;height:28px;"></i>
+    </div>
+   </div>
+  </header><!-- About Section -->
+  <section id="about" class="py-20 lg:py-32 px-6" style="background:#F5F1EA;">
+   <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+    <div class="fade-up overflow-hidden rounded-lg shadow-xl"><img data-template-id="about-img" class="canva-image w-full h-[400px] lg:h-[500px] object-cover" loading="lazy" src="ChatGPT_Image_Jul_18__2026__11_12_23_AM.png" alt="Selection of grilled dishes including ćevapi and pljeskavica">
+    </div>
+    <div class="fade-up">
+     <div class="gold-line mb-6"></div>
+     <p data-template-id="about-subtitle" class="canva-text uppercase tracking-[0.15em] text-xs mb-3" style="color: rgb(122, 30, 30); font-weight: 500; font-style: normal; font-size: 16px;">Naša priča</p>
+     <h2 data-template-id="about-title" class="canva-text mb-6" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 700; font-style: normal; font-size: 36px;">Tradicija, okus i gostoprimstvo</h2>
+     <p data-template-id="about-text" class="canva-text leading-relaxed mb-6" style="color: rgb(74, 74, 74); font-weight: 400; font-style: normal; font-size: 15px;">Od 1969. godine, Pečenjarnica Makedonka s ponosom služi autentične balkanske roštilj specijalitete u Osijeku. Izgrađena na generacijama iskustva, pažljivo odabranim namirnicama, tradicionalnom roštilju na ugljen i iskrenom gostoprimstvu.</p>
+     <p data-template-id="about-text2" class="canva-text leading-relaxed" style="color: rgb(74, 74, 74); font-weight: 400; font-style: normal; font-size: 15px;">Restoran je postao jedno od najomiljenijih odredišta u gradu za izvanrednu hranu i nezaboravne trenutke s obitelji i prijateljima.</p>
+    </div>
+   </div>
+  </section><!-- Signature Specialties -->
+  <section id="specialties" class="py-20 lg:py-32 px-6" style="background:#1A1A1A;">
+   <div class="max-w-6xl mx-auto text-center mb-16 fade-up">
+    <div class="gold-line mx-auto mb-6"></div>
+    <p data-template-id="spec-subtitle" class="canva-text uppercase tracking-[0.15em] text-xs mb-3" style="color: rgb(200, 164, 90); font-weight: 500; font-style: normal; font-size: 16px;">Specijaliteti</p>
+    <h2 data-template-id="spec-title" class="canva-text" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 36px;">Naši potpisi</h2>
+   </div>
+   <div class="max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8"><!-- Ćevapi -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-56 overflow-hidden">
+      <img data-template-id="spec-cevapi-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3335.JPG" alt="Ćevapi served with flatbread and onions">
+     </div>
+     <div class="p-6">
+      <h3 data-template-id="spec-cevapi-name" class="canva-text mb-2" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Ćevapi</h3>
+      <p data-template-id="spec-cevapi-desc" class="canva-text text-sm" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Ručno oblikovane mesne kobasice s lepinjom i svježim lukom</p>
+     </div>
+    </div><!-- Pljeskavica -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-56 overflow-hidden">
+      <img data-template-id="spec-pljeska-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3349.JPG" alt="Pljeskavica served with flatbread and onions">
+     </div>
+     <div class="p-6">
+      <h3 data-template-id="spec-pljeska-name" class="canva-text mb-2" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Pljeskavica</h3>
+      <p data-template-id="spec-pljeska-desc" class="canva-text text-sm" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Balkanski burger s roštilja u tradicionalnom stilu</p>
+     </div>
+    </div><!-- Punjena Pljeskavica -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-56 overflow-hidden">
+      <img data-template-id="spec-punjena-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3337.JPG" alt="Punjena pljeskavica with flatbread and onions">
+     </div>
+     <div class="p-6">
+      <h3 data-template-id="spec-punjena-name" class="canva-text mb-2" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Punjena Pljeskavica</h3>
+      <p data-template-id="spec-punjena-desc" class="canva-text text-sm" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Punjena pljeskavica sa sirom</p>
+     </div>
+    </div><!-- Šiš Ćevapi -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-56 overflow-hidden">
+      <img data-template-id="spec-sis-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3345.JPG" alt="Šiš ćevapi on skewers with flatbread">
+     </div>
+     <div class="p-6">
+      <h3 data-template-id="spec-sis-name" class="canva-text mb-2" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Šiš Ćevapi</h3>
+      <p data-template-id="spec-sis-desc" class="canva-text text-sm" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Meso na ražnjićima pečeno na roštilja</p>
+     </div>
+    </div><!-- Pileći Steak -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-56 overflow-hidden">
+      <img data-template-id="spec-pileci-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3344.JPG" alt="Grilled chicken steak with fries and salad">
+     </div>
+     <div class="p-6">
+      <h3 data-template-id="spec-pileci-name" class="canva-text mb-2" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Pileći Stek</h3>
+      <p data-template-id="spec-pileci-desc" class="canva-text text-sm" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Sočni pileći stek roštilja s prilozima</p>
+     </div>
+    </div><!-- Pileći Batak -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-56 overflow-hidden">
+      <img data-template-id="spec-batak-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3351.JPG" alt="Grilled chicken leg with fries, salad, and flatbread">
+     </div>
+     <div class="p-6">
+      <h3 data-template-id="spec-batak-name" class="canva-text mb-2" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Pileći Batak</h3>
+      <p data-template-id="spec-batak-desc" class="canva-text text-sm" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Sočni pileći batak roštilja s prilozima</p>
+     </div>
+    </div>
+   </div>
+  </section><!-- Full Menu -->
+  <section id="menu" class="py-20 lg:py-32 px-6" style="background:#F5F1EA;">
+   <div class="max-w-4xl mx-auto text-center mb-16 fade-up">
+    <div class="gold-line mx-auto mb-6"></div>
+    <p data-template-id="menu-subtitle" class="canva-text uppercase tracking-[0.15em] text-xs mb-3" style="color: rgb(122, 30, 30); font-weight: 500; font-style: normal; font-size: 16px;">Jelovnik</p>
+    <h2 data-template-id="menu-title" class="canva-text" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 700; font-style: normal; font-size: 36px;">Naša ponuda</h2>
+   </div>
+   <div class="max-w-4xl mx-auto space-y-12"><!-- Ćevapi Category -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-cevapi" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Ćevapi</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-cevapi-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Ćevapi</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-cevapi-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-cevapi-2" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Mali Ćevapi</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-cevapi-2-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-cevapi-3" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Ćevapi bez lepinja sa pomesom</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-cevapi-3-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-cevapi-5" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Mali Ćevapi bez lepinja sa pomesom</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-cevapi-5-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div><!-- Pljeskavica Category -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-pljeska" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Pljeskavica</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-pljeska-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Mala Pljeskavica</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-pljeska-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-pljeska-2" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Velika Pljeskavica</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-pljeska-2-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div><!-- Punjena Pljeskavica -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-punjena" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Punjena Pljeskavica</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-punjena-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Mala Punjena Pljeskavica</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-punjena-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-punjena-2" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Velika Punjena Pljeskavica</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-punjena-2-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div><!-- Šiš Ćevapi -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-sis" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Šiš Ćevapi</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-sis-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Mali Šiš Ćevapi</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-sis-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-sis-2" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Veliki Šiš Ćevapi</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-sis-2-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div><!-- Piletina -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-chicken" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Piletina</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-chicken-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Pileći Stek</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-chicken-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-chicken-2" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Pileći Batak</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-chicken-2-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div><!-- Hamburger -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-hamburger" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Hamburger</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-hamburger-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Hamburger</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-hamburger-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div><!-- Salate -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-salads" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Salate</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-salad-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Mala Salata</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-salad-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-salad-2" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Velika Salata</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-salad-2-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div><!-- Prilozi -->
+    <div class="fade-up">
+     <h3 data-template-id="menu-cat-sides" class="canva-text text-xl font-semibold mb-6 pb-3 border-b border-[#C8A45A]/40" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 19px;">Pribori</h3>
+     <div class="space-y-4">
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-side-1" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Vrhnje</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-side-1-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-side-2" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Ajvar</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-side-2-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-side-3" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Kečap</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-side-3-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-side-4" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Pommes Frites</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-side-4-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+      <div class="flex justify-between items-baseline">
+       <span data-template-id="menu-side-5" class="canva-text" style="color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-size: 16px;">Lepinja</span><span class="border-b border-dotted border-gray-400 flex-1 mx-4"></span><span data-template-id="menu-side-5-price" class="canva-text font-semibold" style="color: rgb(122, 30, 30); font-weight: 600; font-style: normal; font-size: 16px;">—</span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Premium Drinks Section -->
+  <section id="drinks" class="py-20 lg:py-32 px-6" style="background:#1A1A1A;">
+   <div class="max-w-6xl mx-auto text-center mb-16 fade-up">
+    <div class="gold-line mx-auto mb-6"></div>
+    <p data-template-id="drinks-subtitle" class="canva-text uppercase tracking-[0.15em] text-xs mb-3" style="color: rgb(200, 164, 90); font-weight: 500; font-style: normal; font-size: 16px;">Napiće</p>
+    <h2 data-template-id="drinks-title" class="canva-text" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 36px;">Osvježavajuće napiće</h2>
+   </div>
+   <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center"><!-- Espresso Card -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-64 overflow-hidden"><img data-template-id="drinks-coffee-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3354.JPG" alt="Espresso coffee in red cup with saucer">
+     </div>
+     <div class="p-8 text-center">
+      <h3 data-template-id="drinks-coffee-name" class="canva-text mb-3" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Espresso</h3>
+      <p data-template-id="drinks-coffee-desc" class="canva-text text-sm leading-relaxed" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Svježa limunada u kombinaciji s epressom</p>
+     </div>
+    </div><!-- Lemonade Card -->
+    <div class="menu-card fade-up rounded-xl overflow-hidden bg-[#252525]">
+     <div class="h-64 overflow-hidden"><img data-template-id="drinks-lemonade-img" class="canva-image w-full h-full object-cover" loading="lazy" src="IMG_3370.JPG" alt="Fresh homemade lemonade in glass">
+     </div>
+     <div class="p-8 text-center">
+      <h3 data-template-id="drinks-lemonade-name" class="canva-text mb-3" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 22px;">Domaća Limonada</h3>
+      <p data-template-id="drinks-lemonade-desc" class="canva-text text-sm leading-relaxed" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Osvježavajuća domaća limonada od svježeg limuna</p>
+     </div>
+    </div>
+   </div>
+  </section><!-- Gallery -->
+  <section id="gallery" class="py-20 lg:py-32 px-6" style="background:#1A1A1A;">
+   <div class="max-w-6xl mx-auto text-center mb-16 fade-up">
+    <div class="gold-line mx-auto mb-6"></div>
+    <p data-template-id="gallery-subtitle" class="canva-text uppercase tracking-[0.15em] text-xs mb-3" style="color: rgb(200, 164, 90); font-weight: 500; font-style: normal; font-size: 16px;">Galerija</p>
+    <h2 data-template-id="gallery-title" class="canva-text" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 36px;">Atmosfera i okusi</h2>
+   </div>
+   <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 justify-center items-center">
+    <div class="gallery-item fade-up rounded-lg overflow-hidden justify-self-center">
+     <img data-template-id="gallery-3" class="canva-image w-full h-auto" loading="lazy" src="IMG_5097.jpeg" alt="Pečenjarnica Makedonka exterior with since 1969 signage">
+    </div>
+    <div class="gallery-item fade-up rounded-lg overflow-hidden justify-self-center">
+     <img data-template-id="gallery-4" class="canva-image w-full h-auto" loading="lazy" src="IMG_5182.jpeg" alt="Modern restaurant facade with Makedonka branding">
+    </div>
+    <div class="gallery-item fade-up rounded-lg overflow-hidden justify-self-center">
+     <img data-template-id="gallery-5" class="canva-image w-full h-auto" loading="lazy" src="IMG_9891.jpeg" alt="Indoor dining area with covered terrace seating">
+    </div>
+    <div class="gallery-item fade-up rounded-lg overflow-hidden justify-self-center">
+     <img data-template-id="gallery-6" class="canva-image w-full h-auto" loading="lazy" src="IMG_9995.jpeg" alt="Inviting outdoor terrace seating with tree views and red Makedonka sign">
+    </div>
+   </div>
+  </section><!-- Reviews -->
+  <section id="reviews" class="py-20 lg:py-32 px-6" style="background:#F5F1EA;">
+   <div class="max-w-6xl mx-auto text-center mb-16 fade-up">
+    <div class="gold-line mx-auto mb-6"></div>
+    <p data-template-id="reviews-subtitle" class="canva-text uppercase tracking-[0.15em] text-xs mb-3" style="color: rgb(122, 30, 30); font-weight: 500; font-style: normal; font-size: 16px;">Recenzije</p>
+    <h2 data-template-id="reviews-title" class="canva-text" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 700; font-style: normal; font-size: 36px;">Što kažu naši gosti</h2>
+    <p class="text-[#C8A45A] text-2xl mt-4">★★★★★</p>
+   </div>
+   <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+    <div class="fade-up bg-white rounded-xl p-8 shadow-sm">
+     <p class="text-[#C8A45A] text-lg mb-3">★★★★★</p>
+     <p data-template-id="review-1-text" class="canva-text italic mb-4 leading-relaxed" style="color: rgb(74, 74, 74); font-weight: 400; font-style: normal; font-size: 14px;">Najbolji ćevapi u Osijeku! Dolazimo ovdje već godinama i kvaliteta je uvijek na vrhunskom nivou.</p>
+     <p data-template-id="review-1-author" class="canva-text font-semibold text-sm" style="color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 16px;">— Marko T.</p>
+    </div>
+    <div class="fade-up bg-white rounded-xl p-8 shadow-sm">
+     <p class="text-[#C8A45A] text-lg mb-3">★★★★★</p>
+     <p data-template-id="review-2-text" class="canva-text italic mb-4 leading-relaxed" style="color: rgb(74, 74, 74); font-weight: 400; font-style: normal; font-size: 14px;">Autentičan balkanski roštilj, prijazno osoblje i prekrasna atmosfera. Topla preporuka!</p>
+     <p data-template-id="review-2-author" class="canva-text font-semibold text-sm" style="color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 16px;">— Ana K.</p>
+    </div>
+    <div class="fade-up bg-white rounded-xl p-8 shadow-sm">
+     <p class="text-[#C8A45A] text-lg mb-3">★★★★★</p>
+     <p data-template-id="review-3-text" class="canva-text italic mb-4 leading-relaxed" style="color: rgb(74, 74, 74); font-weight: 400; font-style: normal; font-size: 14px;">Pljeskavica je nevjerojatna — sočna, savršeno začinjena. Osjećate tradiciju u svakom zalogaju.</p>
+     <p data-template-id="review-3-author" class="canva-text font-semibold text-sm" style="color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 16px;">— Ivan P.</p>
+    </div>
+   </div>
+   <div class="text-center mt-12 fade-up"><a href="https://share.google/H8ihSK9NqGLVMK2zy" target="_blank" rel="noopener noreferrer" data-template-id="reviews-btn" class="canva-button inline-block px-8 py-3 rounded-full font-semibold text-sm transition hover:opacity-90" style="background: rgb(122, 30, 30); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Pročitaj Google Recenzije</a>
+   </div>
+  </section><!-- Reservation -->
+  <section id="reservation" class="py-20 lg:py-32 px-6 text-center" style="background:#1A1A1A;">
+   <div class="max-w-3xl mx-auto fade-up">
+    <div class="gold-line mx-auto mb-6"></div>
+    <p data-template-id="res-subtitle" class="canva-text uppercase tracking-[0.15em] text-xs mb-3" style="color: rgb(200, 164, 90); font-weight: 500; font-style: normal; font-size: 16px;">Rezervacija</p>
+    <h2 data-template-id="res-title" class="canva-text mb-6" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 36px;">Rezervirajte telefonom</h2>
+    <p data-template-id="res-text" class="canva-text mb-10 max-w-lg mx-auto leading-relaxed" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 15px;">Rezervacije primamo isključivo telefonom. Ne nudimo online naručivanje niti dostavu.</p><a href="tel:+38531503403" data-template-id="res-phone-btn" class="canva-button inline-flex items-center gap-3 px-10 py-4 rounded-full text-lg font-bold transition hover:opacity-90" style="background: rgb(200, 164, 90); color: rgb(26, 26, 26); font-weight: 700;"> <i data-lucide="phone" style="width:22px;height:22px;"></i> <span>+385 31 503 403</span> </a>
+    <div class="mt-10">
+     <p data-template-id="res-hours-label" class="canva-text uppercase tracking-widest text-xs mb-2" style="color: rgb(200, 164, 90); font-weight: 500; font-style: normal; font-size: 16px;">Radno vrijeme</p>
+     <p data-template-id="res-hours" class="canva-text text-2xl font-semibold" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">07:00 – 22:00</p>
+     <p data-template-id="res-days" class="canva-text mt-1" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 16px;">Svaki dan</p>
+    </div>
+   </div>
+  </section><!-- Contact & Map -->
+  <section id="contact" class="py-20 lg:py-32 px-6" style="background:#F5F1EA;">
+   <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+    <div class="fade-up">
+     <div class="gold-line mb-6"></div>
+     <h2 data-template-id="contact-title" class="canva-text mb-8" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 700; font-style: normal; font-size: 36px;">Kontaktirajte nas</h2>
+     <div class="space-y-6">
+      <div class="flex items-start gap-4"><i data-lucide="phone" style="width:20px;height:20px;color:#7A1E1E;margin-top:2px;"></i>
+       <div>
+        <p data-template-id="contact-phone-label" class="canva-text text-xs uppercase tracking-widest mb-1" style="color: rgb(122, 30, 30); font-weight: 500; font-style: normal; font-size: 16px;">Telefon</p><a href="tel:+38531503403" class="text-[#1A1A1A] font-semibold text-lg hover:text-[#7A1E1E] transition">+385 31 503 403</a>
+       </div>
+      </div>
+      <div class="flex items-start gap-4"><i data-lucide="map-pin" style="width:20px;height:20px;color:#7A1E1E;margin-top:2px;"></i>
+       <div>
+        <p data-template-id="contact-loc-label" class="canva-text text-xs uppercase tracking-widest mb-1" style="color: rgb(122, 30, 30); font-weight: 500; font-style: normal; font-size: 16px;">Lokacija</p>
+        <p data-template-id="contact-loc" class="canva-text font-semibold text-lg" style="color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 16px;">Trg bana Josipa Jelačića 7, Osijek</p>
+       </div>
+      </div>
+      <div class="flex items-start gap-4"><i data-lucide="clock" style="width:20px;height:20px;color:#7A1E1E;margin-top:2px;"></i>
+       <div>
+        <p data-template-id="contact-hours-label" class="canva-text text-xs uppercase tracking-widest mb-1" style="color: rgb(122, 30, 30); font-weight: 500; font-style: normal; font-size: 16px;">Radno vrijeme</p>
+        <p data-template-id="contact-hours" class="canva-text font-semibold text-lg" style="color: rgb(26, 26, 26); font-weight: 600; font-style: normal; font-size: 16px;">07:00 – 22:00</p>
+       </div>
+      </div>
+     </div><a href="tel:+38531503403" data-template-id="contact-call-btn" class="canva-button inline-flex items-center gap-2 mt-10 px-8 py-3 rounded-full font-semibold transition hover:opacity-90" style="background: rgb(122, 30, 30); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Pozovi sad</a>
+    </div>
+    <div>
+     <h3 data-template-id="contact-find-us-title" class="canva-text text-2xl font-semibold mb-6" style="font-family: &quot;Playfair Display&quot;, serif; color: rgb(26, 26, 26); font-weight: 700; font-style: normal; font-size: 19px;">Pronađi nas</h3>
+     <div class="fade-up rounded-xl overflow-hidden shadow-xl"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.713392635108!2d18.717703599999997!3d45.5560908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ce72cd9c76515%3A0x37d89ee4b91884fb!2sPe%C4%8Denjarnica%20Makedonka!5e0!3m2!1sen!2smk!4v1784396749072!5m2!1sen!2smk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+     </div>
+    </div>
+   </div>
+  </section><!-- Footer -->
+  <footer class="py-16 px-6" style="background:#1A1A1A;">
+   <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
+    <div>
+     <h4 class="text-white text-2xl font-bold mb-4" style="font-family:'Playfair Display',serif;">Makedonka</h4>
+     <p data-template-id="footer-desc" class="canva-text leading-relaxed" style="color: rgba(255, 255, 255, 0.6); font-weight: 400; font-style: normal; font-size: 14px;">Tradicionalni balkanski roštilj u srcu Osijeka od 1969. godine.</p>
+    </div>
+    <div>
+     <h4 data-template-id="footer-nav-title" class="canva-text text-sm uppercase tracking-widest mb-4" style="color: rgb(200, 164, 90); font-weight: 600; font-style: normal; font-size: 16px;">Navigacija</h4>
+     <div class="space-y-2"><a href="#home" class="footer-link block text-white/60 hover:text-white transition text-sm">Početna</a> <a href="#about" class="footer-link block text-white/60 hover:text-white transition text-sm">O nama</a> <a href="#menu" class="footer-link block text-white/60 hover:text-white transition text-sm">Jelovnik</a> <a href="#gallery" class="footer-link block text-white/60 hover:text-white transition text-sm">Galerija</a> <a href="#reservation" class="footer-link block text-white/60 hover:text-white transition text-sm">Rezervacija</a>
+     </div>
+    </div>
+    <div>
+     <h4 data-template-id="footer-contact-title" class="canva-text text-sm uppercase tracking-widest mb-4" style="color: rgb(200, 164, 90); font-weight: 600; font-style: normal; font-size: 16px;">Kontakt</h4>
+     <p class="text-white/60 text-sm mb-2">+385 31 503 403</p>
+     <p class="text-white/60 text-sm mb-2">Osijek, Croatia</p>
+     <p class="text-white/60 text-sm mb-6">07:00 – 22:00</p><a href="https://share.google/H8ihSK9NqGLVMK2zy" target="_blank" rel="noopener noreferrer" class="inline-block border border-[#C8A45A] text-[#C8A45A] px-4 py-2 rounded-full text-xs hover:bg-[#C8A45A] hover:text-white transition">Google Recenzije</a>
+    </div>
+   </div>
+   <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p data-template-id="footer-since" class="canva-text text-sm" style="color: rgba(255, 255, 255, 0.376); font-weight: 400; font-style: italic; font-size: 16px;">u Osijeku od 1969.</p>
+    <p class="text-white/40 text-xs">© 2025 Pečenjarnica Makedonka</p>
+   </div>
+  </footer><!-- Floating Call Button --> <a href="tel:+38531503403" class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition hover:scale-110" style="background:#7A1E1E;" aria-label="Call restaurant"> <i data-lucide="phone" style="width:22px;height:22px;color:white;"></i> </a>
+  <script src="/_sdk/7bc22c877bd41881.editing_sdk.js" integrity="sha512-w+loWc8iNWJjaxLkSer0H0nUl/sFG+bxZK8bymKEC6R482TTHgJnQyMAxBE+v2+MMFpBjnl1umrBRJ3vfqzFCA=="></script>
+  <script>
+        // Language system - removed, Croatian only
+        let currentLang = 'hr';
+
+        // Mobile menu
+        document.getElementById('mobileMenuBtn').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+        document.getElementById('mobileMenuClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+        document.querySelectorAll('.mob-link').forEach(l => l.addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open')));
+
+        // Sticky nav
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').classList.toggle('nav-scrolled', window.scrollY > 80);
+        });
+
+        // Scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Init
+        lucide.createIcons();
+    </script>
+ 
+</body></html>
